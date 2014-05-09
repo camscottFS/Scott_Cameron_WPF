@@ -55,3 +55,21 @@ a-=3; // a = a-3
 a/=2; // a = a/2
 a*=6; // a = a*6
 console.log(a);
+
+//Strings
+// " or ' used to find the beginning and end of string
+// Needed to distinguish between variable names and normal text
+
+var kermit = "light green";
+var frogName = "kermit";
+
+//Double or single quotes?
+//Can use either BUT MUST match!
+
+var courseName = 'Web Programming Fundamentals';
+var  phrase = 'I don\'t know\n New line starts here';
+console.log(phrase);
+
+//Escaping character " \ " <-- backslash
+
+// \n <-- New line character

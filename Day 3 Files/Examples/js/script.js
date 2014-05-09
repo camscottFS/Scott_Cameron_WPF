@@ -84,3 +84,30 @@ var nope = false;
 
 //Not Boolean just text
 var maybe = "true";
+
+// order of operations
+//PEMDAS
+//please excuse my dear aunt sally
+//Parthenthesis, exponents, multiplications, division, addition, subtraction
+
+// Find the average of 4 quiz grades
+
+var quiz1 = 87;
+var quiz2 = 100;
+var quiz3 = 70;
+var quiz4 = 80;
+
+// Add all four variables together and divide by total number of quizzes
+
+var average = (quiz1 + quiz2 + quiz3 + quiz4) /4;
+console.log(average);
+
+//DO NOT over use parenthesis
+
+//Find the perimeter of a rectangle
+// length * 2 + width * 2
+
+var length = 7;
+var width = 6;
+var perimeter = (length*2)+(width*2);
+console.log(perimeter);

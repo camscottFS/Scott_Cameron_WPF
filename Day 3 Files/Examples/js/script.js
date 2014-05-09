@@ -24,3 +24,14 @@ var height = 5;
 
 var areaTriangle = base*height*.5;
 console.log(areaTriangle);
+
+//Module - %
+//Gives the reaminer
+
+var remainder = 32%10;
+console.log(remainder);
+
+//Find out if things are even or odd
+var evenOrOdd = 67%2;
+console.log(evenOrOdd);
+

@@ -4,23 +4,6 @@ WPF Section 1
 Expressions Personal
 */
 
-/*
-var width = prompt("Let's calculate the area of a rectangle. \nPlease enter a width:");
-var height = prompt("Please enter a height:");
-
-//Area of a rectangle - width * height
-
-var area = width * height;
-console.log("The area of your rectangle is "+area+".");
-alert("The area of your rectangle is "+area+".");
-
-//Create a variable to hold the whole string of an answer
-
-var result = "The area of a rectangle with a width of "+width+ " and a height of " + height+ " is "+area+".";
-console.log(result);
-alert(result);
-*/
-
 //Personal
 //Lets figure out how much a vehicle and motorcycle cost
 

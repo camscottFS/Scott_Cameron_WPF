@@ -5,8 +5,6 @@ May 14 2014
 Conditions Worksheet
  */
 
-//Calculating fahrenheit to celsius
-
 //Prompt user to insert initial degrees
 
 var initial = prompt("Please enter your initial degrees.");

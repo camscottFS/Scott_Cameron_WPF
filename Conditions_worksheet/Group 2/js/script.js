@@ -13,5 +13,6 @@ if(grade >= 95) {
     if(grade <=94){
     console.log(+grade +" is an A");
     }
-    if(grade <=90){
+    if(grade >=85<90){
+    console.log(+grade +" is an B+");
 }}

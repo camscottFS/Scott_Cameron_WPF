@@ -37,3 +37,7 @@ console.log(remainder);
 
 var evenOrOdd = 67%2;
 console.log(evenOrOdd);
+
+var kermit = "light green";
+
+var frogName = "kermit";

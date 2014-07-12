@@ -1,8 +1,9 @@
 /*
 
- Cameron Scott
- WPF 1405
- Day 3 Lab Expressions
+Cameron Scott
+WPF 1407
+7-11-2014
+Instructional Expressions
 
  */
 

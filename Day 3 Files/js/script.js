@@ -41,3 +41,11 @@ console.log(evenOrOdd);
 var kermit = "light green";
 
 var frogName = "kermit";
+
+var phrase = 'I don\'t know.\nDo you?';
+
+console.log(phrase);
+
+var question = true;
+
+var unTrue = false;

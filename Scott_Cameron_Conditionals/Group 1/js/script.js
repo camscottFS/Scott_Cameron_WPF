@@ -1,8 +1,8 @@
 /*
 Cameron Scott
 WPF Section 1
-May 14 2014
-Conditions Worksheet
+7-18-14
+Conditions Group 1
  */
 
 //Prompt user to insert initial degrees

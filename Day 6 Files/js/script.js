@@ -42,3 +42,16 @@ else if(animal === "cat"){
 // Exclusive Or (XOR) ^
 
 // Not !
+
+// Ternary
+
+var x = 6;
+
+if(x>5){
+    console.log("Your number is greater than five.");
+}else{
+    console.log("Your number is five or less.");
+}
+
+
+(x > 5) ? console.log("Your number is greater than five.") : console.log("Your number is five or less.");

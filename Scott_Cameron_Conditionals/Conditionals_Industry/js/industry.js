@@ -2,7 +2,7 @@
 Cameron Scott
 WPF Section 1
 7-18-14
-Conditions Group 2
+Conditionals: Industry
 */
 
 //Enter username
@@ -17,7 +17,7 @@ if(username === "camsco")
         //If password works, then Welcome!
 		console.log("Welcome "+username+"!");
 		}
-		else{
+		if(password != "password"){
         //console.log result
 			console.log("Password does not match our records.");
 		}

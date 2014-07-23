@@ -5,30 +5,17 @@ WPF Section 1
 Conditionals: Personal
  */
 
-//Prompt user to insert initial degrees
+//Let's figure out if you can kill Omniknight with Doom
 
-var initial = prompt("Please enter your initial degrees.");
+var omniKnight = prompt("How many HP does Omniknight have?");
+var doom = prompt("How many HP does Doom have?");
 
-//Prompt user to enter number
-var choose = prompt("Converting to Celsius or Fahrenheit?\n" +
-    " C = Celsius | F = Fahrenheit");
-
-//if choose = C then continue
-if(choose == "C"){
-//Fahrenheit to Celsius calculation
-var celFah = (Number(initial) - 32) * 5 / 9;
-//alert the final result
-        alert(+initial+ " degrees Fahrenheit is "+celFah+ " degrees Celsius.");
-console.log(+initial+ " degrees Fahrenheit is "+celFah+ " degrees Celsius.");
-    }else{
-    }
-
-//if choose = F then continue
-if(choose == "F") {
-//Celsius to Fahrenheit calculation
-var fahCel = Number(initial) * 9 / 5 + 32;
-//alert the final result
-        alert(+initial+ " degrees Celsius is "+fahCel + " degrees Fahrenheit.");
-console.log(+initial+ " degrees Celsius is "+fahCel + " degrees Fahrenheit.");
-    }else{
-    }
+if(omniKnight > doom){
+    console.log("Omniknight wins.");
+    alert("Omniknight wins.");
+}else if(doom > omniKnight){
+    console.log("Doom wins.");
+    alert("Doom wins.");
+}else{
+    console.log("Omniknights HP was "+omniKnight+". Dooms HP was"+doom+".");
+}

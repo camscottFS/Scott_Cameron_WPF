@@ -1,11 +1,9 @@
 /**
- Cameron Scott
- WPF Section 1
- 7-18-14
- Conditionals: Industry
- */
-
-//Should you go to class or not?
+Cameron Scott
+WPF Section 1
+7-18-14
+Conditionals: Industry
+*/
 
 var go = prompt("Do you want to go to class?");
 

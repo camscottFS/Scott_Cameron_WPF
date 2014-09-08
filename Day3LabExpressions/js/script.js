@@ -50,20 +50,20 @@ console.log("You have spent a total of $"+totalSpent+" on groceries over 5 weeks
 
 var originalPrice = 10;
 // Declare original price
-var discountPercent = 50;
+var discountPercent = .50;
 // Declare the discount percentage
 var itemDescription = "Candle Bundle";
 // Declare the item: Candle Bundle
-var salesTax = 6.5;
+var salesTax = 0.065;
 // Declare the sales tax: Florida
 
-var noTax = discountPercent/originalPrice;
+var noTax = originalPrice*discountPercent;
 // Cost without tax
 
-var tax = (salesTax/originalPrice);
+var tax = noTax*salesTax;
 // Get the tax amount
 
-var withTax = (discountPercent/originalPrice)+tax;
+var withTax = (originalPrice*discountPercent)+tax;
 // Cost with tax
 
 console.log("Your "+itemDescription+" was originally $"+originalPrice+" but after a "+discountPercent+"% discount, it is now $"+noTax+" without tax, and $"+withTax+" with tax.");

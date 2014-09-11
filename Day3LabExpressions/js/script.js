@@ -40,7 +40,7 @@ var weeklyBill5 = 160.57;
 // Declare first bill
 var totalSpent = weeklyBill1 + weeklyBill2 + weeklyBill3 + weeklyBill4 + weeklyBill5;
 // Add total spent
-var totalAverage = (weeklyBill1 + weeklyBill2 + weeklyBill3 + weeklyBill4 + weeklyBill5)/5;
+var totalAverage = (totalSpent)/5;
 // Calculate average
 console.log("You have spent a total of $"+totalSpent+" on groceries over 5 weeks. That is an average of $"+totalAverage+" per week.");
 // console log out totalSpent and totalAverage

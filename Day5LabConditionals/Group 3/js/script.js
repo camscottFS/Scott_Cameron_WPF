@@ -18,7 +18,7 @@ if(movieTime >= 3 <= 5){
 
 var age = prompt("How old are you?");
 // Ask user for age
-if(age >= "55" || age <= "10") {
+if(age >= 5 || age <= 10) {
 // If user is older then 55 or younger then 10 then run below code
     alert("Discounted! The ticket price is $7.00");
     console.log("Discounted! The ticket price is $7.00");

@@ -25,11 +25,11 @@ if(chooseIPad === "no"){
 // if no run below code
     alert("Were sorry you didn't decide to go with our product.")
 }
-if(payment1 === "cash"){
+if(payment1 === "cash" && chooseIPad === "yes"){
 // if cash run below code
     alert("Awesome, since you're paying with cash you'll receive our 5% discount!");
 }
-if(payment1 === "debit"){
+if(payment1 === "debit" && chooseIPad === "yes"){
 // if debit run below code
     alert("Thanks for your purchase, you've paid with a debit card.");
 }
@@ -45,11 +45,11 @@ if(chooseMac === "no"){
 // if no run below code
     alert("Were sorry you didn't decide to go with our product.")
 }
-if(payment2 === "cash"){
+if(payment2 === "cash" && chooseMac === "yes"){
 // if cash run below code
     alert("Thanks for your purchase, you've paid with cash");
 }
-if(payment2 === "debit"){
+if(payment2 === "debit" && chooseMac === "yes"){
 // if debit run below code
     alert("Thanks for your purchase, you've paid with a debit card");
 }

@@ -24,7 +24,7 @@ if(dog != Number(dog)){
 
  function circleCircumference(d){
 // declare circleCircumference as a function
-         var circumference=Math.PI*d;
+         var circumference = Math.PI*d;
      // set circumference to Math.Pi*d equation
      return circumference;
      // return the variable circumference
